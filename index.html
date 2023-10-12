@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVALUATION TABLE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./SolarPanels.jfif" type="image/x-icon">
+</head>
+
+<body>
+    <section class="main">
+        <div class="centerDiv">
+            <marquee behavior="" direction="right">
+                <h2>MULTIPLICATION TABLE</h2>
+            </marquee>
+            <div class="inputDiv" style="line-height: 10px;">
+                <input type="number" placeholder="ROW" id="rowNum">
+                <input type="number" placeholder="COLOMUN" id="colNum">
+            </div>
+            <div class="buttons" id="displayButton">
+                <button onclick="addition()">Addition➕</button>
+                <button onclick="subtraction()">Subtraction➖</button>
+                <button onclick="multiplication()">Multiplication❌</button>
+                <button onclick="division()">Division➗</button>
+                
+            </div>
+            <table id="myTable" >
+          
+            </table>
+
+            <div id="makeTab"></div>
+        </div>
+    
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

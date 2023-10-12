@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./SolarPanels.jfif);
+    background-size: cover;
+    background-repeat:repeat;
+}
+.centerDiv  marquee{
+    padding-top: 40px;
+}
+.main .inputDiv, input{
+    text-align: center;
+}
+.main input{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid blue;
+}
+.main .buttons {
+    margin-top: 40px;
+    text-align: center;
+}
+.main .buttons  button{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 0px 10px ;
+}
+.main .buttons  button:hover{
+    background-color: rgb(102, 89, 89);
+    color: white;
+}
+#myTable{
+    background-color: rgb(10, 29, 134);
+    color: white;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+    width: 200pc;
+    max-width: 100pc;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.centerDiv .makeTab{
+    text-align: center;
+}
